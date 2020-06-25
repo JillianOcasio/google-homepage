@@ -1,0 +1,101 @@
+body{
+    height: 660px;
+}
+.topnav{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background : none;
+}
+
+a.firstr  { left: 0%; position: relative; }
+a.secondr {left:1%; position:relative;}
+a.thirdr{left:75%; position:relative;}
+a.fourthr{left:76%; position:relative;}
+
+.topnav a:link    {color:black;
+        text-decoration: none;}
+.topnav a:visited {color:black;}
+.topnav a:hover   {color:black;
+        text-decoration: underline;
+    }
+.topnav a:active  {color:yellow;}
+  
+.aligncenter{
+    text-align: center;
+    
+}
+.botnav{
+font-size: 15px;
+font-family: arial,sans-serif;
+background-color:#f2f2f2;
+width: 100%;
+position: fixed;
+bottom: 10px;
+display:block;
+
+
+}
+.botnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.fourthf{
+    left:50%; position:relative;
+}
+img {
+    width: 25%;
+    height: auto;
+  }
+
+input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-right: 4px;
+    font-size: 13px;
+    cursor: default;
+    text-align: left;
+    font-size: 16px;
+  }
+    
+  
+
+
+button {
+        background-color:#f2f2f2;
+        border: 1px solid
+         #f2f2f2;
+        border-radius: 4px;
+        color:#5F6368;
+        font-family: arial,sans-serif;
+        padding: 0 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 11px 4px;
+        height: 36px;
+        min-width: 54px;
+        cursor: pointer;
+        user-select: none;
+      }
+      
+    .botnav a:link    {color:black;
+        text-decoration: none;}
+    .botnav a:visited {color:black;}
+    .botnav a:hover   {color: purple;
+        text-decoration: underline;
+    }
+    .botnav a:active  {color:yellow;}
